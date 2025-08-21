@@ -277,7 +277,7 @@
             </button>
             
             <div class="note">
-                <strong>Note:</strong> This tool simulates social media scraping. In a real implementation, you'd need to handle CORS policies, rate limiting, and platform-specific anti-bot measures. Consider using a backend service or browser extension for production use.
+                <strong>Demo Mode:</strong> This tool currently works with sample data for: Starbucks, Nike, Depop, Boohoo, Apple, and Spotify. To add real scraping functionality, you'll need to implement a backend service or browser extension to bypass CORS restrictions.
             </div>
         </div>
 
@@ -343,6 +343,74 @@
                 youtube: {
                     url: 'https://youtube.com/nike',
                     bioLinks: ['https://www.nike.com']
+                }
+            },
+            depop: {
+                instagram: {
+                    url: 'https://instagram.com/depop',
+                    bioLinks: ['https://depop.com', 'https://depop.com/sellerguide']
+                },
+                twitter: {
+                    url: 'https://twitter.com/depop',
+                    bioLinks: ['https://depop.com']
+                },
+                tiktok: {
+                    url: 'https://tiktok.com/@depop',
+                    bioLinks: ['https://depop.com', 'https://link.depop.com/app']
+                },
+                youtube: {
+                    url: 'https://youtube.com/depop',
+                    bioLinks: ['https://depop.com']
+                }
+            },
+            boohoo: {
+                instagram: {
+                    url: 'https://instagram.com/boohoo',
+                    bioLinks: ['https://www.boohoo.com', 'https://boohoo.com/app']
+                },
+                twitter: {
+                    url: 'https://twitter.com/boohoo',
+                    bioLinks: ['https://www.boohoo.com']
+                },
+                facebook: {
+                    url: 'https://facebook.com/boohoo',
+                    bioLinks: ['https://www.boohoo.com']
+                },
+                tiktok: {
+                    url: 'https://tiktok.com/@boohoo',
+                    bioLinks: ['https://www.boohoo.com']
+                },
+                youtube: {
+                    url: 'https://youtube.com/boohoo',
+                    bioLinks: ['https://www.boohoo.com']
+                }
+            },
+            apple: {
+                instagram: {
+                    url: 'https://instagram.com/apple',
+                    bioLinks: ['https://apple.com', 'https://apple.com/newsroom']
+                },
+                twitter: {
+                    url: 'https://twitter.com/apple',
+                    bioLinks: ['https://apple.com']
+                },
+                youtube: {
+                    url: 'https://youtube.com/apple',
+                    bioLinks: ['https://apple.com']
+                }
+            },
+            spotify: {
+                instagram: {
+                    url: 'https://instagram.com/spotify',
+                    bioLinks: ['https://open.spotify.com', 'https://spotify.com/premium']
+                },
+                twitter: {
+                    url: 'https://twitter.com/spotify',
+                    bioLinks: ['https://open.spotify.com']
+                },
+                tiktok: {
+                    url: 'https://tiktok.com/@spotify',
+                    bioLinks: ['https://open.spotify.com']
                 }
             }
         };
